@@ -5,7 +5,16 @@
     padding: 20px;
     border: 1px solid #666;
 }
+
+h1 {font-family: Georgia, sans-serif;
+	font-size: 24px;
+	font-style: bold;
+	color: #009900;
+
+}
+
 #titlebar {
+	margin-bottom: 30px
 
 }
 span 1 Lucida Console
