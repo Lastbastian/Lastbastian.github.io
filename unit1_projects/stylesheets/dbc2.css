@@ -10,7 +10,7 @@ body {
 }
 .sidebar {
 	float: left;
-	width: 27%;
+	width: 30%;
 	border: 1px solid #333333;
 	margin: 0 1.5% 24px 1.5%;
 	background-color: #ffffff;
@@ -18,12 +18,11 @@ body {
 }
 .maincontent {
 	float: right;
-	width: 60%;
+	width: 63%;
 	background-color:#cccccc;
 	margin: 0 1.5% 24px 1.5%;
 	border: 2px solid #333333;
 	font: "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
-	padding-left: 10px;
 }
 .footer {
 	background-color: #gray;
