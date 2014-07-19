@@ -3,13 +3,13 @@ body {
 	padding: 10px;
 }
 .titlebar {
-	background-color: #ffffff;
+	background-color: #333333;
 	margin: 0 1.5%;
 }
 .sidebar {
 	float: left;
 	width: 30%;
-	border: 1px solid #333333;
+	border: 1px solid #cccccc;
 	margin: 0 1.5% 24px 1.5%;
 	background-color: #ffffff;
 }
@@ -30,8 +30,8 @@ body {
 
 }
 
-h1{	"Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
-	font-size: 250%;
+h1{	font-family: "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+	font-size: 350%;
 	font-weight: bold;
 }
 
