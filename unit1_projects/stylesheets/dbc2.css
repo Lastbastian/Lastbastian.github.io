@@ -3,7 +3,7 @@ body {
 	padding: 10px;
 }
 .titlebar {
-	background: #333333 url(images/titlebar_pic.jpg);
+	background: #333333 url(/images/titlebar_pic.jpg);
 	margin: 0 1.5%;
 	text-align: right;
 	margin-left: auto;
