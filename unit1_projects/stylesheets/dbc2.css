@@ -1,1 +1,4 @@
-body {background-color: blue;}
+body {background-color: gray;}
+.titlebar {
+	border: 3px solid #333333;
+}
