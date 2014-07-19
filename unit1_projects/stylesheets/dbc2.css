@@ -10,19 +10,20 @@ body {
 	float: left;
 	width: 30%;
 	border: 1px solid #333333;
-	margin: 0 1.5%;
+	margin: 0 1.5% 24px 1.5%;
 	background-color: #ffffff;
 }
 .maincontent {
 	float: right;
 	width: 63%;
 	background-color: #ffffff;
-	margin: 0 1.5%;
+	margin: 0 1.5% 24px 1.5%;
 	border: 1px solid #333333;
 }
 .footer {
 	background-color: #gray;
 	border: 1px solid #333333;
-	margin: 0 1.5%;
+	margin: 0 1.5% 24px 1.5%;
+	margin-bottom: 0;
 
 }
