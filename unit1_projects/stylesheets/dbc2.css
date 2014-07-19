@@ -10,12 +10,14 @@ body {
 	padding: 10px;
 }
 .sidebar {
+	float: left;
 	width: 25%;
 	border: 1px solid #333333;
 	margin: 15px;
 	background-color: #6495ed;
 }
 .maincontent {
+	float: right;
 	width: 75%;
 	background-color: #ffffff;
 	margin: 15px;
