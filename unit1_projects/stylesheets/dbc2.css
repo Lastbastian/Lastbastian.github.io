@@ -1,30 +1,25 @@
 body {
 	background-color: gray;
-	padding: 10pc
 }
 .titlebar {
-	border: 3px solid #333333;
-	margin: 15px;
-	padding: 10px, 5px, 20px, 5px;
 }
 .sidebar {
 	float: left;
 	width: 30%;
 	border: 1px solid #333333;
 	margin: 0 1.5%;
-	background-color: #6495ed;
-	margin: 0 1.5%;
+	background-color: #ffffff;
 }
 .maincontent {
 	float: right;
 	width: 63%;
 	background-color: #ffffff;
 	margin: 0 1.5%;
-	border: 1px solid #666666;
+	border: 1px solid #333333;
 }
 .footer {
-	background-color:  #6495ed;
-	border: 1px solid #666666;
+	background-color: #ffffff;
+	border: 1px solid #333333;
 	margin: 0 1.5%;
 
 }
