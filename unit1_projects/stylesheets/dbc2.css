@@ -32,3 +32,11 @@ body {
 	clear: both;
 
 }
+
+h1{	font-size: x-large;
+	font-weight: bold;
+}
+
+p {	margin: 10px;
+
+}
