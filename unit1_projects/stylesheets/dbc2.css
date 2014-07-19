@@ -28,6 +28,12 @@ body {
 	border: 1px solid #333333;
 	margin-left: 15px;
 }
+#maincontent a:link {color: #009900;}
+#maincontent a:visited {color: #999999;}
+#maincontent a:hover {color: #333333;}
+#maincontent a:focus {color: #333333;}
+#maincontent a:active {color: #009900;}
+
 .footer {
 	background-color: #333333;
 	border: 1px solid #333333;
