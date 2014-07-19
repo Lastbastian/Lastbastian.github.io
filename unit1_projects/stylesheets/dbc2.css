@@ -4,14 +4,13 @@ body {
 }
 .titlebar {
 	background-color: #ffffff;
-	border: 2px solid #333333;
 	margin: 0 1.5%;
 	font: "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
 }
 .sidebar {
 	float: left;
 	width: 30%;
-	border: 2px solid #333333;
+	border: 1px solid #333333;
 	margin: 0 1.5% 24px 1.5%;
 	background-color: #ffffff;
 	font: "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
@@ -21,12 +20,13 @@ body {
 	width: 63%;
 	background-color:#cccccc;
 	margin: 0 1.5% 24px 1.5%;
-	border: 2px solid #333333;
+	border: 1px solid #333333;
 	font: "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+	margin-left: 15px;
 }
 .footer {
 	background-color: #gray;
-	border: 2px solid #333333;
+	border: 1px solid #333333;
 	margin: 0 1.5% 24px 1.5%;
 	margin-bottom: 0;
 	clear: both;
