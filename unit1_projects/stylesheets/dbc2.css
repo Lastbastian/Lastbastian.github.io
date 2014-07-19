@@ -13,6 +13,7 @@ body {
 	border: 1px solid #333333;
 	margin: 0 1.5% 24px 1.5%;
 	background-color: #ffffff;
+	font: "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
 }
 .maincontent {
 	float: right;
