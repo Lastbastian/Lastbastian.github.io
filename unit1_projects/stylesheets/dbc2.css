@@ -6,22 +6,25 @@ body {
 	background-color: #ffffff;
 	margin: 0 1.5%;
 	font: "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+	border: 2px solid #333333
 }
 .sidebar {
 	float: left;
-	width: 30%;
+	width: 27%;
 	border: 1px solid #333333;
 	margin: 0 1.5% 24px 1.5%;
 	background-color: #ffffff;
 	font: "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+	height: 100%
 }
 .maincontent {
 	float: right;
-	width: 63%;
+	width: 60%;
 	background-color:#cccccc;
 	margin: 0 1.5% 24px 1.5%;
-	border: 1px solid #333333;
+	border: 2px solid #333333;
 	font: "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+	padding-left: 10px;
 }
 .footer {
 	background-color: #gray;
