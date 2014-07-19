@@ -3,13 +3,12 @@ body {
 	padding: 10px;
 }
 .titlebar {
-	ali
-	width: 900px;
 	background-color: #cccccc;
 	margin: 0 1.5%;
 	text-align: right;
 	margin-left: auto;
     margin-right: auto;
+    width: 900px;
 }
 .sidebar {
 	float: left;
