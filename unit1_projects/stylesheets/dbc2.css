@@ -6,7 +6,6 @@ body {
 	background-color: #ffffff;
 	margin: 0 1.5%;
 	font: "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
-	border: 2px solid #333333
 }
 .sidebar {
 	float: left;
@@ -21,7 +20,7 @@ body {
 	width: 63%;
 	background-color:#cccccc;
 	margin: 0 1.5% 24px 1.5%;
-	border: 2px solid #333333;
+	border: 1px solid #333333;
 	font: "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
 }
 .footer {
