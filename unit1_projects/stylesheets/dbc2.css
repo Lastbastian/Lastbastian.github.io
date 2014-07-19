@@ -11,13 +11,16 @@ body {
 }
 .sidebar {
 	border: 1px solid #333333;
+	margin: 15px;
 	background-color: #6495ed;
 }
 .maincontent {
 	background-color: #ffffff;
+	margin: 15px;
 	border: 1px solid #666666;
 }
 .footer {
+	margin: 15px;
 	background-color:  #6495ed;
-	
+
 }
