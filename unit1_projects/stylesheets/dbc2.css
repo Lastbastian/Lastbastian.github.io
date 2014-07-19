@@ -1,4 +1,15 @@
-body {background-color: gray;}
+body {
+	background-color: gray;
+	width: 85%;
+	padding: 25px;
+
+}
 .titlebar {
 	border: 3px solid #333333;
+	margin: 15px;
+	padding: 10px;
+}
+.sidebar {
+	border: 3px solid #333333;
+	background-color: #6495ed;
 }
