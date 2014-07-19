@@ -18,7 +18,7 @@ body {
 	margin: 0 1.5% 24px 1.5%;
 	background-color: #cccccc;
 	border-radius: 6px;
-	height: 100px;
+	height: 300px;
 }
 .maincontent {
 	float: right;
@@ -29,11 +29,9 @@ body {
 	border: 1px solid #333333;
 	margin-left: 15px;
 }
-#maincontent a:link {color: #009900;}
-#maincontent a:visited {color: #999999;}
-#maincontent a:hover {color: #333333;}
-#maincontent a:focus {color: #333333;}
-#maincontent a:active {color: #009900;}
+#maincontent a:link {color: blue;}
+#maincontent a:visited {color: purple;}
+#maincontent a:hover {color: #5CD65C;}
 
 .footer {
 	background-color: #333333;
