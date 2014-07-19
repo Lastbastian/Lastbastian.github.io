@@ -1,0 +1,58 @@
+body {
+	background-color: gray;
+	padding: 10px;
+}
+.titlebar {
+	background-color: #333333;
+	margin: 0 1.5%;
+	text-align: right;
+	margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    border-radius: 6px;
+}
+.sidebar {
+	float: left;
+	width: 30%;
+	border: 1px solid #333333;
+	margin: 0 1.5% 24px 1.5%;
+	background-color: #cccccc;
+	border-radius: 6px;
+	height: 300px;
+}
+.maincontent {
+	float: right;
+	width: 63%;
+	background-color:#cccccc;
+	border-radius: 6px;
+	margin: 0 1.5% 24px 1.5%;
+	border: 1px solid #333333;
+	margin-left: 15px;
+}
+#maincontent a:link {color: blue;}
+#maincontent a:visited {color: purple;}
+#maincontent a:hover {color: #5CD65C;}
+
+.footer {
+	background-color: #333333;
+	border: 1px solid #333333;
+	margin: 0 1.5% 24px 1.5%;
+	margin-bottom: 0;
+	clear: both;
+	margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    border-radius: 6px;
+}
+
+h1{	font-family: "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+	font-size: 350%;
+	font-weight: bold;
+}
+
+p {	font-family: "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+	margin: 10px;
+
+}
+.tekno
+	{color: #5CD65C}
