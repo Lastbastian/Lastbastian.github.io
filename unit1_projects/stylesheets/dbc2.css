@@ -5,6 +5,7 @@ body {
 .titlebar {
 	background-color: #ffffff;
 	margin: 0 1.5%;
+	font: "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
 }
 .sidebar {
 	float: left;
@@ -19,6 +20,7 @@ body {
 	background-color: #ffffff;
 	margin: 0 1.5% 24px 1.5%;
 	border: 1px solid #333333;
+	font: "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
 }
 .footer {
 	background-color: #gray;
