@@ -1,14 +1,5 @@
-body {  background: #000000;
-	margin: 20px;
+h1 {color: sienna;
+	font-size: x-large;	
 }
-
-h1 {font-family:"Times New Roman",Georgia,Serif;
-	font-size: x-large;
-	font-weight: bold;
-	color: #009900;
-}
-
-p {
-	font-family: "Times New Roman",Georgia,Serif;
-	font-size: x-large;
-}
+p {margin-left: 100px;}
+body {background-color: blue;}
