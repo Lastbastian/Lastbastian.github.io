@@ -3,6 +3,7 @@ body {
 	padding: 10px;
 }
 .titlebar {
+	background-color: #ffffff;
 }
 .sidebar {
 	float: left;
