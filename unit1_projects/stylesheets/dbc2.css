@@ -18,7 +18,7 @@ body {
 	margin: 0 1.5% 24px 1.5%;
 	background-color: #cccccc;
 	border-radius: 6px;
-	height:50%;
+	height: 100px;
 }
 .maincontent {
 	float: right;
