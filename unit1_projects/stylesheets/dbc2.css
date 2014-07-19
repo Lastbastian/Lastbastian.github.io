@@ -17,7 +17,14 @@ h1 {font-family: Georgia, sans-serif;
 	margin-bottom: 30px
 
 }
-p {font-size: 24px}
+p {
+	font-family: "Times New Roman",Georgia,Serif;
+}
+
+body {  background: #eeeeee;
+	margin: 20px;
+}
+
 span 1 Lucida Console
 span 2 = Arial Rounded MT Bold
 
