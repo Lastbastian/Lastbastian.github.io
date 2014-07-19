@@ -3,6 +3,7 @@ body {
 	padding: 10px;
 }
 .titlebar {
+	height: 100px;
 	background-color: #cccccc;
 	margin: 0 1.5%;
 }
@@ -22,7 +23,7 @@ body {
 	margin-left: 15px;
 }
 .footer {
-	background-color: #gray;
+	background-color: #cccccc;
 	border: 1px solid #333333;
 	margin: 0 1.5% 24px 1.5%;
 	margin-bottom: 0;
