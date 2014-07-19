@@ -22,7 +22,6 @@ body {
 	margin: 0 1.5% 24px 1.5%;
 	border: 1px solid #333333;
 	font: "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
-	padding: 10px;
 }
 .footer {
 	background-color: #gray;
