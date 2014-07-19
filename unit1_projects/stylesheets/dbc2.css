@@ -2,29 +2,25 @@ body {
 	background-color: gray;
 	padding: 10px;
 }
-.titlebar {
-	background-color: #333333;
+.sidebar .maincontent .footer .titlebar {
+	background-color: #cccccc;
 	margin: 0 1.5%;
+
 }
+
 .sidebar {
 	float: left;
 	width: 30%;
-	border: 1px solid #cccccc;
-	margin: 0 1.5% 24px 1.5%;
-	background-color: #ffffff;
+	border: 1px solid #333333;
 }
 .maincontent {
 	float: right;
 	width: 63%;
-	background-color:#cccccc;
-	margin: 0 1.5% 24px 1.5%;
 	border: 1px solid #333333;
 	margin-left: 15px;
 }
 .footer {
-	background-color: #gray;
 	border: 1px solid #333333;
-	margin: 0 1.5% 24px 1.5%;
 	margin-bottom: 0;
 	clear: both;
 
