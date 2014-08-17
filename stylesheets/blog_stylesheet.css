@@ -2,6 +2,21 @@ body {
 	background-color: gray;
 }
 
+@media screen and (min-width:600px) {
+  sidebar {
+    float: left;
+    width: 25%;
+  }
+  .maincontent {
+    margin-left: 25%;
+  }
+}
+@media screen and (max-width:599px) {
+  .sidebar li {
+    display: inline;
+  }
+}
+
 .wrapper {
 	width: 100%;
 	padding: 2%;
@@ -12,6 +27,7 @@ body {
 	text-align: right;
 	margin-left: auto;
   margin-right: auto;
+  border: 1px solid #333333;
   width: 90%;
   border-radius: 6px;
 }
@@ -30,7 +46,6 @@ body {
 }
 
 .maincontent {
-	margin-left: 26%;
 	background-color:#cccccc;
 	border-radius: 6px;
 	border: 1px solid #333333;
