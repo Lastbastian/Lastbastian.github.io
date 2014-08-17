@@ -28,9 +28,9 @@ body {
 	width: 63%;
 	background-color:#cccccc;
 	border-radius: 6px;
-	margin: 0 1.5% 1.5% 1.5%;
+	margin: 0 1.5% 0 1.5%;
 	border: 1px solid #333333;
-	margin-left: 2%;
+	margin-left: 0%;
 }
 #maincontent a:link {color: blue;}
 #maincontent a:visited {color: purple;}
@@ -39,7 +39,7 @@ body {
 .footer {
 	background-color: #333333;
 	border: 1px solid #333333;
-	margin: 0 1.5% 1.5% 1.5%;
+	margin: 0 1.5% 0% 1.5%;
 	margin-bottom: 0;
 	clear: both;
 	margin-left: auto;
