@@ -47,7 +47,7 @@ body {
 
 .maincontent {
 	background-color:#cccccc;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 }
 
 #maincontent a:link {color: blue;}
@@ -69,11 +69,12 @@ h1  {
 	font-weight: bold;
 }
 
-p {	font-family: "Georgia, serif";
-	margin-left: 10px;
+p {
+	font-family: "Georgia, serif";
+	margin-left: 5px;
 }
 
-#social li {
+#social li  {
 	display: inline;
 }
 
