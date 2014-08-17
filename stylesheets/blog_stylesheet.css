@@ -12,7 +12,7 @@ body {
 }
 .sidebar {
 	float: left;
-	width: 30%;
+	width: 25%;
 	border: 1px solid #333333;
 	margin: 0 1.5% 0% 1.5%;
 	background-color: #cccccc;
@@ -25,12 +25,11 @@ body {
 
 .maincontent {
 	float: right;
-	width: 63%;
+	width: 65%;
+	margin-left: 30%
 	background-color:#cccccc;
 	border-radius: 6px;
-	margin: 0 1.5% 0 1.5%;
 	border: 1px solid #333333;
-	margin-left: 0%;
 }
 #maincontent a:link {color: blue;}
 #maincontent a:visited {color: purple;}
