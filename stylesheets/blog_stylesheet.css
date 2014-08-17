@@ -36,7 +36,6 @@ body {
 .sidebar {
 	float: left;
 	width: 25%;
-	border: 1px solid #333333;
 	background-color: #cccccc;
 	border-radius: 6px;
 	margin-bottom: 5px;
@@ -49,7 +48,6 @@ body {
 .maincontent {
 	background-color:#cccccc;
 	border-radius: 6px;
-	border: 1px solid #333333;
 	margin-bottom: 5px;
 }
 
