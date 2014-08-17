@@ -1,5 +1,6 @@
 body {
 	background-color: gray;
+	font-family: "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
 }
 
 @media screen and (min-width:600px) {
@@ -32,6 +33,7 @@ body {
   border: 1px solid #333333;
   width: 90%;
   border-top-left-radius: 10px;
+  font-size: 3em;
 }
 
 .sidebar {
@@ -68,7 +70,6 @@ body {
  }
 
 h1  {
-	font-family: "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
 	font-size: 350%;
 	font-weight: bold;
 }
@@ -84,4 +85,5 @@ p {
 
 #tekno  {
 	color: #66cc33;
+	font-size: 150%;
 }
