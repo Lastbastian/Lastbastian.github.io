@@ -9,6 +9,7 @@ body {
   }
   .maincontent {
     margin-left: 25%;
+    width: 75%;
   }
 }
 @media screen and (max-width:599px) {
