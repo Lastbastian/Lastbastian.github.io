@@ -1,6 +1,9 @@
 body {
 	background-color: gray;
-	padding: 2em;
+}
+
+.wrapper {
+	width : 100%;
 }
 
 .titlebar {
@@ -27,7 +30,7 @@ body {
 
 .maincontent {
 	width: 75%;
-	margin-left: 30%;
+	margin-left: 26%;
 	background-color:#cccccc;
 	border-radius: 6px;
 	border: 1px solid #333333;
