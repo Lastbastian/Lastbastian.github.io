@@ -19,7 +19,7 @@ body {
 
 .wrapper {
 	width: 100%;
-	padding: 2%;
+	padding: 5px;
 }
 
 .titlebar {
@@ -39,6 +39,7 @@ body {
 	border: 1px solid #333333;
 	background-color: #cccccc;
 	border-radius: 6px;
+	margin-bottom: 5px;
 }
 
 .sidebar ul {
