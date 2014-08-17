@@ -38,6 +38,7 @@ body {
 	width: 25%;
 	background-color: #cccccc;
 	border-top-left-radius: 10px;
+	padding: 1.25em;
 	margin-bottom: 5px;
 }
 
@@ -48,11 +49,12 @@ body {
 .maincontent {
 	background-color:#cccccc;
 	margin-bottom: 5px;
+	padding: 1.25em;
 }
 
 #maincontent a:link {color: blue;}
 #maincontent a:visited {color: purple;}
-#maincontent a:hover {color: #5CD65C;}
+#maincontent a:hover {color: #66cc33;}
 
 .footer {
 	background-color: #333333;
@@ -80,5 +82,5 @@ p {
 }
 
 #tekno  {
-	color: #5CD65C;
+	color: #66cc33;
 }
