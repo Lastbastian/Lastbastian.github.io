@@ -74,5 +74,10 @@ p {	font-family: "Georgia, serif";
 	margin: 10px;
 
 }
+
+#social {
+	display: inline;
+}
+
 .tekno
 	{color: #5CD65C}
