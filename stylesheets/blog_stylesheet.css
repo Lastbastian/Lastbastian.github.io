@@ -38,7 +38,7 @@ body {
 	width: 25%;
 	background-color: #cccccc;
 	border-top-left-radius: 10px;
-	padding: 1.25em;
+	padding: 1em;
 	margin-bottom: 5px;
 }
 
@@ -49,7 +49,7 @@ body {
 .maincontent {
 	background-color:#cccccc;
 	margin-bottom: 5px;
-	padding: 1.25em;
+	padding: 1em;
 }
 
 #maincontent a:link {color: blue;}
@@ -74,7 +74,7 @@ h1  {
 
 p {
 	font-family: "Georgia, serif";
-	margin-left: 5px;
+	margin-left: 1em;
 }
 
 #social li  {
