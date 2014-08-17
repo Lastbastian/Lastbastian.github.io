@@ -30,14 +30,14 @@ body {
   margin-bottom: 5px;
   border: 1px solid #333333;
   width: 90%;
-  border-radius: 6px;
+  border-top-left-radius: 5px;
 }
 
 .sidebar {
 	float: left;
 	width: 25%;
 	background-color: #cccccc;
-	border-radius: 6px;
+	border-top-left-radius: 5px;
 	margin-bottom: 5px;
 }
 
@@ -47,7 +47,6 @@ body {
 
 .maincontent {
 	background-color:#cccccc;
-	border-radius: 6px;
 	margin-bottom: 5px;
 }
 
@@ -62,8 +61,7 @@ body {
 	margin-left: auto;
   margin-right: auto;
   width: 90%;
-  border-radius: 6px;
-}
+  border-top-left-radius: 5px;
 
 h1{	font-family: "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
 	font-size: 350%;
