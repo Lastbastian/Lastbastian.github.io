@@ -1,0 +1,21 @@
+body  {
+  font-family: Helvetica, Sans-serif;
+  background-color: beige;
+}
+.header, .navBar {
+  background-color: gray;
+}
+.header  {
+  border-radius: 5px;
+  border: 1px solid black;
+}
+footer  {
+}
+.navbar  {
+  float:left;
+  width: 30%;
+}
+.maincontent  {
+  float: right;
+  width: 60%;
+  }
