@@ -89,6 +89,11 @@ p {
 	display: inline;
 }
 
+#floatright {
+	margin: .25em;
+	float: right;
+}
+
 #tekno  {
 	color: #66cc33;
 	font-size: 75%;
