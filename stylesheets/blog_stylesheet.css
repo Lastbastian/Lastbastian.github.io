@@ -9,10 +9,7 @@ body {
     float: left;
     width: 25%;
   }
-  .socialcontainer {
-  	float: left;
-  	width: 25%;
-  }
+
   .maincontent {
     margin-left: 25%;
     width: 70%;
@@ -93,7 +90,10 @@ p {
 }
 
 #social li  {
+	position: relative;
+	top: 30px;
 	display: inline;
+
 }
 
 #floatright {
