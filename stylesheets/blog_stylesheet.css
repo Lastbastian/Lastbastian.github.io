@@ -1,7 +1,7 @@
 body {
 	background-color: gray;
 	font-family: "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
-	font-size: 1em;
+	font-size: 1.25em;
 }
 
 @media screen and (min-width:600px) {
@@ -22,7 +22,7 @@ body {
 
 .wrapper {
 	width: 100%;
-	padding: 3%;
+	padding: .25em;
 }
 
 .titlebar {
@@ -33,6 +33,7 @@ body {
   margin-bottom: 5px;
   width: 90%;
   border-top-left-radius: 10px;
+  padding: .25em;
 }
 
 .sidebar {
@@ -76,7 +77,7 @@ body {
  }
 
 h1  {
-	font-size: 4em;
+	font-size: 3.5em;
 	font-weight: bold;
 }
 
