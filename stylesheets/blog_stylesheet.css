@@ -33,6 +33,7 @@ body {
   margin-bottom: 5px;
   width: 90%;
   border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
   font-size: 3.5em;
 	font-weight: bolder;
 	padding-top: .25em;
@@ -42,6 +43,7 @@ body {
 	width: 25%;
 	background-color: #cccccc;
 	border-top-left-radius: 40px;
+	border-bottom-left-radius: 40px;
 	padding: 1em;
 	margin-bottom: 5px;
 	border-left: 1px solid #333333;
@@ -72,6 +74,7 @@ body {
   margin-right: auto;
   width: 90%;
   border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
   text-align: center;
   padding: .5em;
   color: gray;
