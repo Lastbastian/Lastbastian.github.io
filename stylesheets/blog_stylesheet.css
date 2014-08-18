@@ -80,6 +80,10 @@ body {
   color: gray;
  }
 
+ h5 {
+	font-size= 1.5em;
+}
+
 p {
 	font-family: "Georgia, serif";
 	margin-left: 1em;
@@ -95,8 +99,12 @@ p {
 	float: right;
 }
 
-h5 {
-	font-size= 1.5em;
+#bold {
+	font-weight: bold;
+}
+
+#italic {
+	font-style: italic;
 }
 
 #tekno  {
