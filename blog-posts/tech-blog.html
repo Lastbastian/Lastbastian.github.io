@@ -26,6 +26,12 @@
           </ul>
       </div>
         <div class = "maincontent">
+        <h4>Week 4 - the Enumerable #group_by method</h4>
+        <p>The goup_by method takes a collection and then groups it by the results of the evaluated block. It is much easier to conceptualize with an example.</p>
+        <p>cities = ["San Francisco", "New York", "San Jose", "San Diego", "Chicago", "New Haven", "Miami", "Charleston"]</p>
+        <p>grouped_by_first_letter = cities.group_by { |s| s[0] } #creates a new array (grouped_by_first_letter) based on the results of the evaluation. The block evaluates strings |s| based on their first letter s[0].</p>
+        <p><em>#</em> {"S"=>["San Francisco", "San Jose", "San Diego"], "N"=>["New York", "New Haven"], "C"=>["Chicago", "Charleston"], "M"=>["Miami"]}
+        <p>
         <h4>Week 3 - JavaScript</h4>
         <p>Question - Why is JavaScript popular in web development? What are the great things about JavaScript?</p>
         <p>First of all it's use has exploded. It is popular for computers and all sorts of mobile devices. With the use of HTML5 there are also powerful ways to access and use JavaScript.<p>
