@@ -99,6 +99,18 @@ p {
 	float: right;
 }
 
+#floatleft {
+  border: 1px solid #333333;
+  margin: .25em;
+  float: left;
+}
+
+#floatcenter {
+  border: 1px solid #333333;
+  margin: .25em;
+  float: center;
+}
+
 .bold {
 	font-weight: bold;
 }
