@@ -26,6 +26,14 @@
           </ul>
       </div>
         <div class = "maincontent">
+          <h4>Week 7 - SQL Injection</h4>
+          <p><strong>What is it?</strong> SQL Injection is the process of inserting malicious SQL code into an database entry field and can result in potential manipulation of the SQL database by the end user. Exploits can be used to gain access to any stored data - user names, security information, and even credit card numbers.</p>
+          <p>Take the example of a log in page; where a legitimate user would enter a user name and password. When a legitimate user enters these details an SQL query is generated a submitted to the database for verification. When they user is verified they will be granted access. The web application that controls the login page communicates with the database via a series of planned commands to verify the user name and password.</p>
+          <p>Via SQL Injection is able to insert malicious SQL code into an entry field (e.g. User or password) and gain privileged access to the database - bypassing the login page.</p>
+          <p><strong>Techniques do prevent SQL Injection.</strong></p>
+          <p><em>Prepared statements or queries</em>rely on the developer defining all the SQL code, and then passing each parameter to the query later. This allows the database to differentiate between code and data.</p>
+          <p><em>Stored procedures</em>are similar to Prepared Statements in that they require the developer to define the SQL code first. The difference is that that the SQL code for a stored procedure is defined and stored in the database and called from the application.</p>
+          <p>There are many other ways to protect and prevent against SQL Injection on different databases.  This is only a start.</p>
           <h4>Week 6 - Blocs, Procs, and Lambdas</h4>
           <p>Blocks - A block allows you to pass code to a method via curly brackets {} or the do...end block.  The curly brackets are usually used for single line block while the do...end block is multi-line. A powerful component to block is the yield statement.</p>
           <p>The yield statement defers execution of the calling method in order to evaluate the code in the block. The result is then evaluated by the remainder of the method.</p>
