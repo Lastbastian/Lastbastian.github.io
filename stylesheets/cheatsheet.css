@@ -9,10 +9,17 @@ body, p, h1, h2, h3, h4, ul, ol, {
 font-family: verdana,helvetica,arial,sans-serif;
 }
 
-#titlebar {
+#top {
   width: 1220px;
   margin: auto;
   height: 60px;
+}
+
+#topLogo {
+  text-align: left;
+  float: left;
+  margin-top: 20px;
+  margin-left: 10px;
 }
 
 #topnav {
