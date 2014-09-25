@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <header>
+    <link rel = "stylesheet" type = "text/css" href = "stylesheets/cheatsheet.css" />
+  </header>
+  <body>
+    <div class = "wrapper">
+      <div class = "titlebar">
+        <span id="tekno">last</span>Bastian
+      </div>
+      <div class = "sidebar">
+          <h3>home</h3>
+          <h3>blogs</h3>
+          <ul>
+            <li><a href="/blog-posts/tech-blog.html">tech blog</a></li>
+            <li><a href="/blog-posts/cultural-blog.html">cultural blog</a></li>
+          </ul>
+          <h3>contents</h3>
+            <ul>
+              <li><a href="/projects/gps1.1.html ">responsive design</a></li>
+            </ul>
+          <ul id="social">
+            <li>&nbsp;<a href="https://twitter.com/lastbastian"><img src="images/48x48-Square-69-TW.png" /></a></li>
+            <li>&nbsp;<a href="https://www.facebook.com/thelastbastian"><img src="images/48x48-Square-69-FB.png" /></a></li>
+            <li>&nbsp;<a href="http://www.linkedin.com/pub/chris-bastian/9/483/80b"><img src="images/48x48-Square-69-LI.png" /></a></li>
+            <li>&nbsp;<a href="https://plus.google.com/u/0/+ChristopherBastian/about"><img src="images/48x48-Square-69-GP.png" /></a></li>
+          </ul>
+      </div>
+      <div class = "maincontent">
+        <h2>Javascript Objects:</h2>
+        <div id "col1">
+        <p>Objects have properties e.g. weight, color, length and height. Properties and values are associated with objects. Methods are actions objects can perform.</p>
+        <h3>a basic object:</h3>
+          <ul>
+            <li>var person = {<br />
+            firstName:"John",<br />
+            lastName:"Doe",<br />
+            age:50,<br />
+            eyeColor:"blue"</li>
+          </ul>
+        <h3>Accessing object properties:</h3>
+          <ul>
+            <li>person.lastName;<br />
+            person["lastName"];</li>
+          </ul>
+        <h3>Accessing object methods:</h3>
+          <ul>
+            <li>name = person.fullName();</li>
+          </ul>
+
+        <h3>Creating a prototype using an object constructor:
+          <ul>
+            <li>function person(first, last, age, eyecolor) {<br />
+            this.firstName = first;<br />
+            this.lastName = last;<br />
+            this.age = age;<br />
+            this.eyeColor = eyecolor;<br />
+            }</li>
+            <li>var myFather = new person("John", "Doe", 50, "blue");</li>
+            <li>var myMother = new person("Sally", "Rally", 48, "green");</li>
+          <ul>
+      </div>
+      <div id "col2">
+
+      </div>
+      <div class = "footer">
+        <p>&copy;Chris Bastian<br />@ SF-DBC 2014</p>
+      </div>
+    </div>
+  </body>
+</html>
