@@ -20,6 +20,14 @@ font-family: verdana,helvetica,arial,sans-serif;
   float: left;
   margin-top: 20px;
   margin-left: 10px;
+  font-family: "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+  font-size: 24px;
+}
+
+#tekno  {
+  color: #66cc33;
+  font-size: 75%;
+  font-weight: normal;
 }
 
 #topnav {
