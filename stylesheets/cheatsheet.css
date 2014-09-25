@@ -15,7 +15,12 @@ font-family: verdana,helvetica,arial,sans-serif;
   height: 60px;
 }
 
-.navbar {
+#topnav {
+  height: 25px;
+  background-color: #d3d3d3;
+}
+
+#topnavTut {
   height: 20px;
   width: 1190px;
   margin: auto;
@@ -31,17 +36,3 @@ a.navbar:link, a.topnav:visited {
   color: #555555;
   text-decoration: none;
 }
-
-
-.maincontent {
-  background-color:#cccccc;
-  margin-bottom: 5px;
-  padding: 1em;
-  border-right: 1px solid #333333;
-  border-top: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-}
-
-#maincontent a:link {color: blue;}
-#maincontent a:visited {color: purple;}
-#maincontent a:hover {color: #66cc33;}
