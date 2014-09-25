@@ -60,3 +60,24 @@ a.topnav:link, a.topnav:visited {
   color: #555555;
   text-decoration: none;
 }
+
+#col1 {
+width: 300px;
+float: left;
+margin-top: 30px;
+margin-right: 5px;
+}
+
+#col2 {
+width: 300px;
+float: center;
+margin-top: 30px;
+margin-right: 5px;
+}
+
+#col3 {
+width: 300px;
+float: right;
+margin-top: 30px;
+margin-right: 5px;
+}
