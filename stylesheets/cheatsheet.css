@@ -1,7 +1,8 @@
 body {
-  background-color: gray;
-  font-family: "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
-  font-size: 1.25em;
+  font-size: 14px;
+  color: #404040;
+  background-color: #f1f1f1;
+  margin: 0px;
 }
 
 .titlebar {
@@ -16,6 +17,18 @@ body {
   font-size: 3.5em;
   font-weight: bolder;
   padding-top: 1em;
+}
+
+.navbar {
+  height: 20px;
+  width: 1190px;
+  margin: auto;
+  word-spacing: 12px;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-top: 5px;
+  background-color: #d3d3d3;
 }
 
 
