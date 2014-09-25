@@ -4,7 +4,7 @@ body {
   margin: 0px;
 }
 
-body, p, h1, h2, h3, h4, ul, ol, {
+body,p, h1, h2, h3, h4, ul, ol, {
 font-family: verdana,helvetica,arial,sans-serif;
 font-size: 14px;
 }
@@ -31,7 +31,7 @@ font-size: 14px;
 }
 
 #topnav {
-  height: 48px;
+  height: 25px;
   background-color: #d3d3d3;
 }
 
