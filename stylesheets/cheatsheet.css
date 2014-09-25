@@ -62,8 +62,22 @@ a.topnav:link, a.topnav:visited {
 }
 
 #col1 {
-  width: 300px;
+  width: 325px;
   float: left;
+  margin-top: 30px;
+  margin-right: 5px;
+}
+
+#col2 {
+  width: 325px;
+  float: center;
+  margin-top: 30px;
+  margin-right: 5px;
+}
+
+#col3 {
+  width: 325px;
+  float: right;
   margin-top: 30px;
   margin-right: 5px;
 }
