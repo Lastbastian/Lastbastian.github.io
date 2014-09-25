@@ -26,10 +26,112 @@
         </div>
       </div>
     </div>
-    <div class = "maincontent">
-
+    <div id = "page">
+<h2>Javascript Objects:</h2>
+      <div id "col1">
+        <p>Objects have properties e.g. weight, color, length and height. Properties and values are associated with objects. Methods are actions objects can perform.</p>
+        <h3>a basic object:</h3>
+          <ul>
+            <li>var person = {<br />
+            firstName:"John",<br />
+            lastName:"Doe",<br />
+            age:50,<br />
+            eyeColor:"blue"</li>
+          </ul>
+        <h3>Accessing object properties:</h3>
+          <ul>
+            <li>person.lastName;<br />
+            person["lastName"];</li>
+          </ul>
+        <h3>Accessing object methods:</h3>
+          <ul>
+            <li>name = person.fullName();</li>
+          </ul>
+        <h3>Adding a Property to an Object:<h3>
+          <ul>
+            <li>myFather.nationality = "English";</li>
+          </ul>
+        </h3>
+         <h3>Adding a Method to an Object:<h3>
+          <ul>
+            <li>myFather.name = function () {<br />
+            return this.firstName + " " + this.lastName;<br />
+            };</li>
+          </ul>
+        </h3>
+      </div>
+      <div id "col2">
+        <h2>Javascript Prototypes</h2>
+        <h3>Creating a prototype using an object constructor:</h3>
+          <ul>
+            <li>function person(first, last, age, eyecolor) {<br />
+            this.firstName = first;<br />
+            this.lastName = last;<br />
+            this.age = age;<br />
+            this.eyeColor = eyecolor;<br />
+            }</li>
+            <li>var myFather = new person("John", "Doe", 50, "blue");</li>
+            <li>var myMother = new person("Sally", "Rally", 48, "green");</li>
+          <ul>
+          <h3>Adding Properties to a Prototype:</h3>
+          <p>Properties must be added to the constructor function</p>
+          <ul>
+            <li>function person(first, last, age, eyecolor) {<br />
+            this.firstName = first;<br />
+            this.lastName = last;<br />
+            this.age = age;<br />
+            this.eyeColor = eyecolor;<br />
+            <strong>this.nationality = "English"</strong><br />
+            }</li>
+          </ul>
+          <h3>Adding Methods to a Prototype:</h3>
+            <p>The construstor function can also define methods:</p>
+            <ul>
+              <li>function person(first, last, age, eyecolor) {<br />
+              this.firstName = first;<br />
+              this.lastName = last;<br />
+              this.age = age;<br />
+              this.eyeColor = eyecolor;<br />
+              <strong>this.name = function() {return this.firstName + " " + this.lastName;};</strong><br />
+              }</li>
+            </ul>
+          </h3>
+        <div>
+        <div id ="col3">
+        <h2>Loops in Javascript</h2>
+        <h3>The <em>for</em> loop:</li>
+          <ul>
+            <li>for (statement 1; statement 2; statement 3) {<br />
+            code block to be executed<br />
+            }</li>
+            <li>for (i = 0; i < 5; i++) {<br />
+            text += "The number is " + i + "<br>";<br />
+            }</li>
+          </ul>
+          <ul>
+            <h3>The <em>while loop</em></h3>
+            <li>while (condition) {<br />
+            code block to be executed<br />
+            }</li>
+            <li>while (i < 10) {<br />
+                text += "The number is " + i;<br />
+                i++;<br />
+            }</li>
+          </ul>
+          <ul>
+            <li>do {<br />
+            code block to be executed<br />
+            }<br />
+            while (condition);</li>
+            <li>do {<br />
+              text += "The number is " + i;<br />
+              i++;<br />
+            }<br />
+            while (i < 10);</li>
+          </ul>
+        <div>
     </div>
-    <div class = "footer">
+    <div id = "footer">
       <p>&copy;Chris Bastian<br />@ SF-DBC 2014</p>
     </div>
   </body>

@@ -39,7 +39,16 @@ font-family: verdana,helvetica,arial,sans-serif;
   background-color: #d3d3d3;
 }
 
-a.navbar:link, a.topnav:visited {
+#page {
+  width: 1160px;
+  margin: auto;
+  background-color: #ffffff;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  box-shadow: 0px 10px 20px 3px #d3d3d3;
+}
+
+a.topnav:link, a.topnav:visited {
   color: #555555;
   text-decoration: none;
 }
