@@ -84,6 +84,8 @@ a.topnav:link, a.topnav:visited {
 }*/
 
 .col1 {
+  width: 325px;
+  padding: 10px;
   float: left;
   width: 20%;
   background-color: #93A5C4;
