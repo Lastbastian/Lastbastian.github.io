@@ -83,19 +83,19 @@ a.topnav:link, a.topnav:visited {
   margin-right: 5px;
 }*/
 
-#primary {
+#col1 {
     float: left;
-    width: 240px;
+    width: 300px;
 }
 
-#content {
+#col2 {
     float: left;
-    width: 480px;
+    width: 300px;
 }
 
-#secondary {
+#col3 {
     float: left;
-    width: 240px;
+    width: 300px;
 }
 
 #footer {
