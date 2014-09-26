@@ -70,35 +70,34 @@ a.topnav:link, a.topnav:visited {
 }
 
 #col2 {
-  width: 325px;
-  float: center;
+  width: 300px;
+  float: left;
   margin-top: 30px;
   margin-right: 5px;
 }
 
 #col3 {
-  width: 325px;
+  width: 300px;
   float: right;
   margin-top: 30px;
   margin-right: 5px;
 }*/
 
-.col1 {
-  width: 325px;
-  padding: 10px;
-  float: left;
-  width: 20%;
-  background-color: #93A5C4;
-  padding-bottom: 10px;
+#primary {
+    float: left;
+    width: 240px;
 }
-.col2 {
-  padding: 10px 0;
-  width: 60%;
-  float: left;
+
+#content {
+    float: left;
+    width: 480px;
 }
-.col3 {
-  float: left;
-  width: 20%;
-  background-color: #93A5C4;
-  padding: 10px 0;
+
+#secondary {
+    float: left;
+    width: 240px;
+}
+
+#footer {
+    clear: both;
 }
