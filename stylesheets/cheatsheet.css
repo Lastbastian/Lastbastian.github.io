@@ -67,6 +67,7 @@ a.topnav:link, a.topnav:visited {
   width: 300px;
   margin-top: 30px;
   margin-right: 5px;
+  padding: 5px;
 }
 
 #col2 {
@@ -74,6 +75,7 @@ a.topnav:link, a.topnav:visited {
   width: 300px;
   margin-top: 30px;
   margin-right: 5px;
+  padding: 5px;
 }
 
 #col3 {
@@ -81,6 +83,7 @@ a.topnav:link, a.topnav:visited {
   width: 300px;
   margin-top: 30px;
   margin-right: 5px;
+  padding: 5px;
 }
 
 #footer {
