@@ -4,7 +4,7 @@ body {
   margin: 0px;
 }
 
-body,p, h1, h2, h3, h4, ul, ol, {
+body, p, h1, h2, h3, h4, ul, ol, {
 font-family: "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
 font-size: 14px;
 }
@@ -25,7 +25,7 @@ font-size: 14px;
   font-weight: bolder;
 }
 
-#tekno  {
+#tekno {
   color: #66cc33;
   font-size: 75%;
   font-weight: normal;
