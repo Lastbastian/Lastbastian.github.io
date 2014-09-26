@@ -62,42 +62,27 @@ a.topnav:link, a.topnav:visited {
   text-decoration: none;
 }
 
-/*#col1 {
-  width: 325px;
-  float: left;
-  margin-top: 30px;
-  margin-right: 5px;
-}
-
-#col2 {
-  width: 300px;
-  float: left;
-  margin-top: 30px;
-  margin-right: 5px;
-}
-
-#col3 {
-  width: 300px;
-  float: right;
-  margin-top: 30px;
-  margin-right: 5px;
-}*/
-
 #col1 {
-    float: left;
-    width: 300px;
+  float: left;
+  width: 300px;
+  margin-top: 30px;
+  margin-right: 5px;
 }
 
 #col2 {
-    float: left;
-    width: 300px;
+  float: left;
+  width: 300px;
+  margin-top: 30px;
+  margin-right: 5px;
 }
 
 #col3 {
-    float: left;
-    width: 300px;
+  float: left;
+  width: 300px;
+  margin-top: 30px;
+  margin-right: 5px;
 }
 
 #footer {
-    clear: both;
+  clear: both;
 }
