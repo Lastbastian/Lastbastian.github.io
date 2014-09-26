@@ -60,10 +60,43 @@
           </ul>
         </h3>
       </div>
-
-    <div id="col2">
-        <p>Main content</p>
-    </div>
+      <div id="col2">
+        <h2>Javascript Prototypes</h2>
+        <h3>Creating a prototype using an object constructor:</h3>
+          <ul>
+            <li>function person(first, last, age, eyecolor) {<br />
+            this.firstName = first;<br />
+            this.lastName = last;<br />
+            this.age = age;<br />
+            this.eyeColor = eyecolor;<br />
+            }</li>
+            <li>var myFather = new person("John", "Doe", 50, "blue");</li>
+            <li>var myMother = new person("Sally", "Rally", 48, "green");</li>
+          <ul>
+          <h3>Adding Properties to a Prototype:</h3>
+          <p>Properties must be added to the constructor function</p>
+          <ul>
+            <li>function person(first, last, age, eyecolor) {<br />
+            this.firstName = first;<br />
+            this.lastName = last;<br />
+            this.age = age;<br />
+            this.eyeColor = eyecolor;<br />
+            <strong>this.nationality = "English"</strong><br />
+            }</li>
+          </ul>
+          <h3>Adding Methods to a Prototype:</h3>
+            <p>The construstor function can also define methods:</p>
+            <ul>
+              <li>function person(first, last, age, eyecolor) {<br />
+              this.firstName = first;<br />
+              this.lastName = last;<br />
+              this.age = age;<br />
+              this.eyeColor = eyecolor;<br />
+              <strong>this.name = function() {return this.firstName + " " + this.lastName;};</strong><br />
+              }</li>
+            </ul>
+          </h3>
+        <div>
 
     <div id="col3">
         <p>Secondary Sidebar</p>
