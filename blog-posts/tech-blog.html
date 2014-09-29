@@ -26,6 +26,37 @@
           </ul>
       </div>
         <div class = "maincontent">
+          <h4>Week 8 - Recursion</h4>
+          <p>In a basic sense, recursion is a function that calls itself. When a function calls itself it is essentially creating a loop. A simple example below:</p>
+          <p>def count_backwards(n)<br />
+          &nbsp;&nbsp;return if n.zero?<br />
+          &nbsp;&nbsp;puts n<br />
+          &nbsp;&nbsp;count_backwards(n-1)<br />
+          end<br /><br />
+          count_backwards(5)<br />
+          5<br />
+          4<br />
+          3<br />
+          2<br />
+          1</p>
+          <p>The method <em>count_backwards</em> calls itself in the last line of the method and decrements its value of n by 1. Eventually, the method is exited when n equals 0 in the line <em>return if n.zero?</em>.<p>
+          <p>Recursion is similar to iteration in that they both have the intention of repeating a task until a desired goal. Iteration achieve this though ending one iteration and taking those results into another iteration. Recursion is a method of defining a function in which, the function being defined is applied again in its own definition.</p>
+          <p>Another great example of recursion is a Ruby method set to determine if a number is a Fibonacci number (part of the Fibonacci sequence).
+          <p>def is_fibonacci?(i, current = 1, before = 0) <br />
+          &nbsp;&nbsp;return true if current == i || i == 0<br />
+          &nbsp;&nbsp;return false if current > i<br />
+          &nbsp;&nbsp;is_fibonacci?(i, current + before, current)<br />
+          end<br /><br />
+          is_fibonacci?(3) # => true<br />
+          is_fibonacci?(4) # => false</p>
+          <p>If we step through the sequence one method call at a time the process become clearer. If we call is_fibonacci(8):<br /><br />
+          is_fibonacci?(8, 1, 1)<br />
+          is_fibonacci?(8, 2, 1)<br />
+          is_fibonacci?(8, 3, 2)<br />
+          is_fibonacci?(8, 5, 3)<br />
+          is_fibonacci?(8, 8, 5)<br />
+          <p>Again, the method <em>is_fibonacci</em> calls itself in the last line of the method. In the initial method the var <em>i</em> takes the initial value (8 in this case). The var <em>current</em> is initially set to 1, and <em>before</em> is set to 0.  The method is called again on the last line with slight different arguments - The <em>i</em> will always stay the same, but <em>currrent</em> will be the sum of <em>current</em> (0 + 1 = 0) and instead of <em>before</em> again we have <em>current</em> (1). This sequence repeats and returns true when <em>current</em> becomes equal to <em>i</em> or <em>i</em> equals zero. The statement returns false when <em>current</em> becomes greater than zero.</p>
+          <p>Recursion can have issues with stack overflow (a low memory error) and iteration can usually get results quicker. However recursion can be used if you call a function multiple times with different parameters inside the same loop - it is a way to accomplish branching.
           <h4>Week 7 - SQL Injection</h4>
           <p><strong>What is it?</strong> SQL Injection is the process of inserting malicious SQL code into an database entry field and can result in potential manipulation of the SQL database by the end user. Exploits can be used to gain access to any stored data - user names, security information, and even credit card numbers.</p>
           <p>Take the example of a login page; where a legitimate user would enter a user name and password. When a legitimate user enters these details an SQL query is generated a submitted to the database for verification. When they user is verified they will be granted access. The web application that controls the login page communicates with the database via a series of planned commands to verify the user name and password.</p>
