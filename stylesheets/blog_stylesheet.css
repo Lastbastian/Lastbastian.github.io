@@ -1,50 +1,50 @@
 body {
-	background-color: gray;
-	font-family: "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
-	font-size: 1.25em;
+  background-color: gray;
+  font-family: "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+  font-size: 1.25em;
 }
 
 .wrapper {
-	width: 100%;
-	padding: .25em;
+  width: 100%;
+  padding: .25em;
 }
 
 .titlebar {
-	background-color: #333333;
-	text-align: right;
-	margin-left: auto;
+  background-color: #333333;
+  text-align: right;
+  margin-left: auto;
   margin-right: auto;
   margin-bottom: 5px;
   width: 90%;
   border-top-left-radius: 40px;
   border-bottom-left-radius: 40px;
   font-size: 3.5em;
-	font-weight: bolder;
-	padding-top: 1em;
+  font-weight: bolder;
+  padding-top: 1em;
 }
 
 .sidebar {
-	width: 25%;
-	background-color: #cccccc;
-	border-top-left-radius: 40px;
-	border-bottom-left-radius: 40px;
-	padding: 1em;
-	margin-bottom: 5px;
-	border-left: 1px solid #333333;
-	border-top: 1px solid #333333;
+  width: 25%;
+  background-color: #cccccc;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  padding: 1em;
+  margin-bottom: 5px;
+  border-left: 1px solid #333333;
+  border-top: 1px solid #333333;
 }
 
 .sidebar ul {
-	list-style-type:none;
+  list-style-type:none;
 }
 
 .maincontent {
-	background-color:#cccccc;
-	margin-bottom: 5px;
-	padding: 1em;
-	border-right: 1px solid #333333;
-	border-top: 1px solid #333333;
-	border-bottom: 1px solid #333333;
+  background-color:#cccccc;
+  margin-bottom: 5px;
+  padding: 1em;
+  border-right: 1px solid #333333;
+  border-top: 1px solid #333333;
+  border-bottom: 1px solid #333333;
 }
 
 #maincontent a:link {color: blue;}
@@ -52,9 +52,9 @@ body {
 #maincontent a:hover {color: #66cc33;}
 
 .footer {
-	background-color: #333333;
-	clear: both;
-	margin-left: auto;
+  background-color: #333333;
+  clear: both;
+  margin-left: auto;
   margin-right: auto;
   width: 90%;
   border-top-left-radius: 40px;
@@ -65,21 +65,21 @@ body {
  }
 
  h5 {
-	font-size= 1.5em;
+  font-size= 1.5em;
 }
 
 p {
-	margin-left: 1em;
+  margin-left: 1em;
 }
 
 #social li  {
-	display: inline;
+  display: inline;
 }
 
 #floatright {
-	border: 1px solid #333333;
-	margin: .25em;
-	float: right;
+  border: 1px solid #333333;
+  margin: .25em;
+  float: right;
 }
 
 #floatleft {
@@ -96,15 +96,15 @@ p {
 }
 
 .bold {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .italic {
-	font-style: italic;
+  font-style: italic;
 }
 
 #tekno  {
-	color: #66cc33;
-	font-size: 75%;
-	font-weight: normal;
+  color: #66cc33;
+  font-size: 75%;
+  font-weight: normal;
 }
